@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta name="google-signin-client_id" content="192089677138-np016p2edegvldlreg0bl5iaqf109dqt.apps.googleusercontent.com">
+
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="chaudhary_collections">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>chaudhary_collections</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCq4Q_zF3-Mndw-pWmAlAE1Kdjbm-7XCb0",
+      authDomain: "chaudhary-colections.firebaseapp.com",
+      projectId: "chaudhary-colections",
+      storageBucket: "chaudhary-colections.firebasestorage.app",
+      messagingSenderId: "192089677138",
+      appId: "1:192089677138:web:13b7d8d2b46df73a482e8b",
+      measurementId: "G-1DV1NMN36K"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    // Google Sign-In example
+    async function googleSignIn() {
+      const provider = new firebase.auth.GoogleAuthProvider();
+
+      try {
+        const result = await firebase.auth().signInWithPopup(provider);
+
+        // Signed-in user information
+        const user = result.user;
+        console.log("User signed in:", user.displayName, user.email);
+      } catch (error) {
+        console.error("Error during sign-in:", error.message);
+      }
+    }
+  </script>
+</head>
+<body>
+<button onclick="googleSignIn()">Sign in with Google</button>
+
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

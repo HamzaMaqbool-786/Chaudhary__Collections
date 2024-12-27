@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "192089677138",
+    "project_id": "chaudhary-colections",
+    "storage_bucket": "chaudhary-colections.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192089677138:android:fedd3db59e495edc482e8b",
+        "android_client_info": {
+          "package_name": "com.hamzatech.chaudhary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192089677138-t6vg1df952pdan63beoq5t58j9q1q00a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamzatech.chaudhary",
+            "certificate_hash": "b144d371b176c98f6f49352ca696f60f177e1ed7"
+          }
+        },
+        {
+          "client_id": "192089677138-np016p2edegvldlreg0bl5iaqf109dqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7mqRolWIIPXbYkbh53OpAYZakpKtJHp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192089677138-np016p2edegvldlreg0bl5iaqf109dqt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "192089677138-br0d7qe273cdbi6b95bcvbo90dmh1u9i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chaudharyCollections"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
