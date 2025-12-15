@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm HAMZA MAQBOOL</h1>
 <h3 align="center">A passionate Flutter Developer</h3>
 
-- 🔭 I’m currently working on **Ecommerce_app**
+- 🔭 I’m currently working on **Smooth Ecommerce Clothing App**
 - 🌱 I’m currently learning **Kotlin and Java**
-- 👯 I’m looking to collaborate on **Flutter along with AI projects**
-- 💬 Ask me about **Flutter**
+- 👯 I’m looking to collaborate on **Flutter & AI-based projects**
+- 💬 Ask me about **Flutter, Firebase, GetX**
 - 📫 How to reach me **bilalmaqbool138@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
@@ -16,26 +16,46 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  </a> 
-  <a href="https://dart.dev" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> 
-  </a> 
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> 
-  </a> 
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
-  </a> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="40" height="40"/>
 </p>
 
-<h3 align="left">App Screenshots:</h3>
+<h3 align="left">🚀 Ecommerce Clothing App (Flutter)</h3>
+
+<p>
+A <b>smooth and modern Ecommerce Clothing App</b> built using <b>Flutter</b> with a powerful <b>Firebase backend</b>.  
+The app provides a clean UI, fast performance, and scalable architecture.
+</p>
+
+<b>Key Features:</b>
+<ul>
+  <li>🛍️ Product listing with categories</li>
+  <li>🛒 Add to cart & checkout flow</li>
+  <li>🔥 Firebase Authentication (User Login / Signup)</li>
+  <li>📦 Firebase Firestore for real-time product & order data</li>
+  <li>🧑‍💼 Admin Panel to manage products, prices, and images</li>
+  <li>⚡ Smooth UI with responsive layouts</li>
+  <li>🔁 State Management using <b>GetX</b></li>
+</ul>
+
+<b>Tech Stack:</b>
+<ul>
+  <li>Flutter (Frontend)</li>
+  <li>Firebase Auth</li>
+  <li>Firebase Firestore</li>
+  <li>Firebase Storage</li>
+  <li>GetX (State Management & Navigation)</li>
+</ul>
+
+<h3 align="left">📱 App Screenshots:</h3>
 <p align="left">
-  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.46 PM.jpeg" alt="App Screenshot 1" width="200" height="400"/>
-  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.47 PM.jpeg" alt="App Screenshot 2" width="200" height="400"/>
-  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.M.jpeg" alt="App Screenshot 3" width="200" height="400"/>
-  <img src="assets/images/WhatsApp Image 2025-12-15.jpeg" alt="App Screenshot 4" width="200" height="400"/>
-  <img src="assets/images/WhatsApp Image1 2025-12-15 at 1.30.47 PM.jpeg" alt="App Screenshot 5" width="200" height="400"/>
-  <img src="assets/images/WhatsApp mage 2025-12-15 at 1.30.47 PM.jpeg" alt="App Screenshot 6" width="200" height="400"/>
+  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.46 PM.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.47 PM.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp Image 2025-12-15 at 1.30.M.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp Image 2025-12-15.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp Image1 2025-12-15 at 1.30.47 PM.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp mage 2025-12-15 at 1.30.47 PM.jpeg" width="200"/>
+  <img src="assets/images/WhatsApp 2Image 2025-12-15 at 1.30.48 PM.jpeg" width="200"/>
 </p>
